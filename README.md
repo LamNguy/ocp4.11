@@ -2,6 +2,12 @@
 
 ### 1. Login to openshift
 #### 1.1 Login with token
+
+Kiểm tra trạng thái của cluster
+```
+oc get clusterversion
+```
+
 ```bash
 oc login --token=sha256~DGoQBL1PxcLir6drRa_S0zfRnxNn0X9cuS42VnFxh1Y --server=https://api.ocp4.example.com:6443
 ```
@@ -15,6 +21,9 @@ oc get project
 oc project $project_name
 ```
 #### 1.4 Kiểm tra operator
+
+
+
 ```bash
 # list danh sách operator
 oc get clusteroperator
