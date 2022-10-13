@@ -16,12 +16,25 @@ oc project $project_name
 ```
 #### 1.4 Kiểm tra operator
 ```bash
+# list danh sách operator
 oc get clusteroperator
 ```
 similar
 
 ```bash
 oc get co
+```
+
+```
+oc get clusteroperator -o yaml kube-scheduler
+```
+
+### 1.4 Kiểm tra event
+```
+oc get events
+
+# or 
+watch 'oc get events'
 ```
 
 
