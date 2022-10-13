@@ -9,13 +9,10 @@ oc login --token=sha256~DGoQBL1PxcLir6drRa_S0zfRnxNn0X9cuS42VnFxh1Y --server=htt
 ```bash
 # list project
 oc get project
+# login to project
 oc project $project_name
 ```
-
-### 
-
-
-##### Check logs on pod
+### 2. Thao tác với pod
 ```
 # check log full
 oc logs  -p console-7bbf788749-j6h9x -n openshift-authentication --kubeconfig /home/cloud/ocp4upi/auth/kubeconfig
