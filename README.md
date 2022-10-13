@@ -26,7 +26,7 @@ oc get co
 ```
 
 ```
-oc get clusteroperator -o yaml kube-scheduler
+oc get clusteroperator -o yaml $operator_name
 ```
 
 ### 1.4 Kiểm tra event
