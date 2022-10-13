@@ -9,6 +9,8 @@ oc login --token=sha256~DGoQBL1PxcLir6drRa_S0zfRnxNn0X9cuS42VnFxh1Y --server=htt
 ```bash
 # list project
 oc get project
+```
+```
 # login to project
 oc project $project_name
 ```
