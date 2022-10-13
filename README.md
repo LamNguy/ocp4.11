@@ -40,6 +40,14 @@ watch 'oc get events'
 
 
 ### 2. Thao tác với pod
+
+Get pod in a namesapce
+
+```
+oc get pods -n openshift-console
+```
+
+
 ```
 # check log full
 oc logs  -p console-7bbf788749-j6h9x -n openshift-authentication --kubeconfig /home/cloud/ocp4upi/auth/kubeconfig
