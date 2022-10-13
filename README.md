@@ -47,6 +47,13 @@ Get pod in a namesapce
 oc get pods -n openshift-console
 ```
 
+Get pod from a pod in a namespace
+
+```
+oc logs  -p console-569dc66bf9-kmmrm -n authentication openshift-authentication
+```
+
+
 
 ```
 # check log full
