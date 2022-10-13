@@ -78,3 +78,13 @@ ví dụ:
 ```
 oc describe co console
 ```
+
+### Magic
+```
+oc patch configs.imageregistry.operator.openshift.io cluster --type merge --patch '{"spec":{"managementState":"Removed"}}'
+```
+
+Get resource within a project 
+```
+oc api-resources --verbs=list --namespaced -o name | xargs -t -n 1 oc get --show-kind --ignore-not-found -n ibm-common-services
+```
