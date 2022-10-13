@@ -45,3 +45,12 @@ watch 'oc get events'
 oc logs  -p console-7bbf788749-j6h9x -n openshift-authentication --kubeconfig /home/cloud/ocp4upi/auth/kubeconfig
 ```
 oc get clusteroperator
+
+### 2. Thao tác với oc describe
+```
+ oc describe $source $name
+```
+ví dụ:
+```
+oc describe co console
+```
