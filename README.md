@@ -20,6 +20,14 @@ oc get project
 # login to project
 oc project $project_name
 ```
+```
+oc get csr
+```
+
+```
+oc get node
+```
+
 #### 1.4 Kiểm tra operator
 
 
