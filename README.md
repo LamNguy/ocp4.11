@@ -12,8 +12,21 @@ oc get project
 # login to project
 oc project $project_name
 ```
+#### 1.4 Kiểm tra operator
+```bash
+oc get clusteroperator
+```
+similar
+
+```bash
+oc get co
+```
+
+
+
 ### 2. Thao tác với pod
 ```
 # check log full
 oc logs  -p console-7bbf788749-j6h9x -n openshift-authentication --kubeconfig /home/cloud/ocp4upi/auth/kubeconfig
 ```
+oc get clusteroperator
